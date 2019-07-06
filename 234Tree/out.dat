@@ -1,0 +1,276 @@
+~~~~~<><><><><>~~~~~~~~~~~~~~~~~~~~  TESTING: CASE 1  ~~~~~~~~~~~~~~~~~~~~<><><><><>~~~~~
+
+TEST 1: TREE IS EMPTY, ADD ONE KEY - ccc
+
+
+
+
+
+
+root -> ccc  
+
+
+TEST 2: TREE HAS ONE KEY, ADD ONE KEY TO LEFT OF NODE - aaa
+
+
+root -> ccc  
+
+
+
+
+root -> aaa ccc 
+
+
+TEST 3: TREE HAS ONE KEY, ADD ONE KEY TO RIGHT OF NODE - ddd
+
+
+root -> ccc  
+
+
+
+
+root -> ccc ddd 
+
+
+TEST 4: TREE HAS TWO KEYS, ADD ONE KEY TO MIDDLE OF NODE - bbb
+
+
+root -> aaa ccc 
+
+
+
+
+root -> aaa bbb ccc
+
+
+TEST 5: TREE HAS TWO KEYS, ADD ONE KEY TO RIGHT OF NODE - ccc
+
+
+root -> aaa bbb 
+
+
+
+
+root -> aaa bbb ccc
+
+
+TEST 6: TREE HAS TWO KEYS, ADD ONE KEY TO LEFT OF NODE - aaa
+
+
+root -> bbb ccc 
+
+
+
+
+root -> aaa bbb ccc
+
+
+~~~~~<><><><><>~~~~~~~~~~~~~~~~~~~~  TESTING: CASE 2  ~~~~~~~~~~~~~~~~~~~~<><><><><>~~~~~
+
+TEST 1: TREE HAS FULL ROOT NODE, ADD ONE SMALLER KEY TO LEFT KID - ccc
+
+
+root -> ggg lll www
+
+
+
+
+			 www  
+root -> lll  
+			 ccc ggg 
+
+
+TEST 2: TREE HAS FULL ROOT NODE, ADD ONE LARGER KEY TO LEFT KID- hhh
+
+
+root -> ggg lll www
+
+
+
+
+			 www  
+root -> lll  
+			 ggg hhh 
+
+
+TEST 3: TREE HAS FULL ROOT NODE, ADD ONE SMALLER KEY TO RIGHT KID - ooo
+
+
+root -> ggg lll www
+
+
+
+
+			 ooo www 
+root -> lll  
+			 ggg  
+
+
+TEST 4: TREE HAS FULL ROOT NODE, ADD ONE LARGER KEY TO RIGHT KID - yyy
+
+
+root -> ggg lll www
+
+
+
+
+			 www yyy 
+root -> lll  
+			 ggg  
+
+
+~~~~~<><><><><>~~~~~~~~~~~~~~~~~~~~  TESTING: CASE 3  ~~~~~~~~~~~~~~~~~~~~<><><><><>~~~~~
+
+TEST 1: ROOT NODE HAS ONE ITEM, ADD ONE KEY TO THE MIDDLE OF THE LEFT KID -ddd
+
+
+			 www  
+root -> lll  
+			 ccc ggg 
+
+
+
+
+			 www  
+root -> lll  
+			 ccc ddd ggg
+
+
+TEST 2: ROOT NODE HAS ONE ITEM, ADD ONE SMALLER KEY TO LEFT KID -aaa
+
+
+			 www  
+root -> lll  
+			 ccc ggg 
+
+
+
+
+			 www  
+root -> lll  
+			 aaa ccc ggg
+
+
+TEST 3: ROOT NODE HAS ONE ITEM, ADD ONE LARGER KEY TO LEFT KID - hhh
+
+
+			 www  
+root -> lll  
+			 ccc ggg 
+
+
+
+
+			 www  
+root -> lll  
+			 ccc ggg hhh
+
+
+TEST 4: ROOT NODE HAS ONE ITEM, ADD ONE SMALLER KEY TO RIGHT KID - nnn
+
+
+			 www  
+root -> lll  
+			 ccc ggg 
+
+
+
+
+			 nnn www 
+root -> lll  
+			 ccc ggg 
+
+
+TEST 5: ROOT NODE HAS ONE ITEM, ADD ONE LARGER KEY TO RIGHT KID - zzz
+
+
+			 www  
+root -> lll  
+			 ccc ggg 
+
+
+
+
+			 www zzz 
+root -> lll  
+			 ccc ggg 
+
+
+TEST 6: ROOT NODE HAS ONE ITEM, ADD ONE MIDDLE KEY TO RIGHT KID - xxx
+
+
+			 www yyy 
+root -> lll  
+			 ggg  
+
+
+
+
+			 www xxx yyy
+root -> lll  
+			 ggg  
+
+
+TEST 7: ROOT NODE HAS ONE ITEM, ADD ONE SMALLER KEY TO RIGHT KID - uuu
+
+
+			 www yyy 
+root -> lll  
+			 ggg  
+
+
+
+
+			 uuu www yyy
+root -> lll  
+			 ggg  
+
+
+TEST 8: ROOT NODE HAS ONE ITEM, ADD ONE LARGER KEY TO RIGHT KID - zzz
+
+
+			 www yyy 
+root -> lll  
+			 ggg  
+
+
+
+
+			 www yyy zzz
+root -> lll  
+			 ggg  
+
+
+TEST 9: ROOT NODE HAS ONE ITEM, ADD ONE SMALLER KEY TO LEFT KID - ddd
+
+
+			 www yyy 
+root -> lll  
+			 ggg  
+
+
+
+
+			 www yyy 
+root -> lll  
+			 ddd ggg 
+
+
+TEST 10: ROOT NODE HAS ONE ITEM, ADD ONE LARGER KEY TO LEFT KID - iii
+
+
+			 www yyy 
+root -> lll  
+			 ggg  
+
+
+
+
+			 www yyy 
+root -> lll  
+			 ggg iii 
+
+
+ ggg iii 
+
+
